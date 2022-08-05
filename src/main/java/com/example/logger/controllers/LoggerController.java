@@ -13,7 +13,7 @@ import java.util.Collections;
 import java.util.List;
 
 @RestController
-@RequestMapping("/")
+@RequestMapping("/log")
 public class LoggerController {
     private final LogRepository logRepository;
     private final RequestRepository requestRepository;
